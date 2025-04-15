@@ -1,0 +1,96 @@
+header {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.logo {
+    margin: 0;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.not-bold {
+    font-weight: normal;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: #009379;
+    font-weight: bold;
+}
+
+.nav-link[href="index.html"] {
+    color: #009379;
+}
+ 
+.start-button {
+    background-color: #009379;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.rocket-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.works-button {
+    background-color: white;
+    color: #009379;
+    font-weight: bold;
+}
+.works-button, .start-button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
